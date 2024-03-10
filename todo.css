@@ -1,0 +1,34 @@
+ * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+	background: #f9f6f6;
+	overflow: auto;
+}
+
+h1{
+	text-align: center;
+	margin: 5%;
+	font-size: 3rem;
+	text-decoration: underline;
+}
+
+ul {
+	text-align: left;
+	padding-left: 10%;
+	padding: 7%;
+	font-size: 2rem;
+	list-style: circle;
+}
+
+li:hover{
+	color:rgb(47, 14, 234);
+	margin: 4%;
+	transition: 1.5s ease;
+	cursor: pointer;
+}
+
